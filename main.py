@@ -235,7 +235,7 @@ class UserManager:
     users = []
     
     def __init__(self):
-        self.__class__.users = []
+        pass
     
     def register_user(self, library):
         username = input("Введите ваш юз: ")
