@@ -384,6 +384,5 @@ class Console:
                 case _:
                     print("Неверный выбор")
 
-if __name__ == "__main__":
-    console = Console()
-    console.run()
+console = Console()
+console.run()
